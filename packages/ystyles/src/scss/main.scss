@@ -1,0 +1,29 @@
+// Import all partials in the correct order
+
+// 1. Variables and configuration
+// @use 'variables';
+
+// 2. Vendor styles
+// @import 'vendors/index';
+
+// 3. Abstracts (mixins and functions)
+@use 'abstracts';
+
+// 4. Base styles
+@use 'base';
+
+// 5. Components
+@use 'components';
+
+// 6. Utilities
+@use 'utilities';
+
+// 7. Themes
+@use 'themes'; 
+
+
+:root {
+    body {
+        margin: 50px;
+    }
+}
